@@ -1,0 +1,98 @@
+/* Colors and fonts */
+body {
+  background: #ebfffa;
+  color: #364f6b;
+  font-family: 'Roboto', sans-serif;
+  font-size:17px;
+}
+
+
+h1{
+  color:#364f6b;
+  font-size:32px;
+  font-family: 'Gotu', sans-serif;
+  font-weight: bolder;
+}
+
+h2{
+  color:#0d7377;
+  font-size:24px;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color:#3d84a8;
+  font-family: 'Gotu', sans-serif;
+}
+
+a:hover{
+  color:#48466d;
+}
+
+/* Custom designs with class */
+.container{width: 700px;
+    margin: 40px auto;
+}
+
+@media(max-width: 760px){
+  .container{
+    width: 600px;
+  }
+}
+
+@media(max-width: 500px){
+  .container{
+    width: 400px;
+  }
+}
+
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.btn-blue{
+  background-color: #3d84a8;
+  color: white;
+  padding:15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover{
+  background-color: #364f6b;
+  color: white;
+}
+
+.list-inline{
+  list-style:none;
+  padding:0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 50px;
+}
+
+.list-inline i:hover{
+  /* I already like the colors my link take when hovered and when not, so
+  I won't make it special for my social media icons, but I know how to */
+}
+
+#introduction p{
+  margin-bottom: 40px;
+}
